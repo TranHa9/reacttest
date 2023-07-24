@@ -1,0 +1,37 @@
+.list-user-container {
+
+    .title-table {}
+
+    .list-user-content {
+        width: 500px;
+        margin: auto;
+        margin-top: 10px;
+        border: 1px solid white;
+        border-collapse: collapse;
+
+        //font-size: calc(10px + 2vmin);
+        .title-stt-user {
+
+            .title-stt {
+                border: 1px solid white;
+            }
+
+            .title-user {
+                border: 1px solid white;
+            }
+        }
+
+        .user-child {
+            height: 40px;
+            border: 1px solid white;
+
+            .user-id {}
+
+            .fisrt-last-name {
+                text-align: center;
+                border: 1px solid white;
+
+            }
+        }
+    }
+}
