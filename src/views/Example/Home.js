@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router";
 import Color from "./HOC/Color";
+import logo from '../../assets/images/Ayaka-nen3.png';
 
 class Home extends React.Component {
     // componentDidMount() {
@@ -10,9 +11,14 @@ class Home extends React.Component {
     // }
     render() {
         return (
-            <div>
-                Hello world Hà
-            </div>
+            <>
+                <div>
+                    Hello world Hà
+                </div>
+                <di>
+                    <img src={logo} />
+                </di>
+            </>
         )
     }
 }
