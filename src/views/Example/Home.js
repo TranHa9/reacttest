@@ -16,7 +16,7 @@ class Home extends React.Component {
                     Hello world Hà
                 </div>
                 <di>
-                    <img src={logo} />
+                    <img src={logo} style={{ height: '550px', width: '1000px', marginTop: '20px' }} />
                 </di>
             </>
         )
